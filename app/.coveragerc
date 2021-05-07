@@ -1,0 +1,24 @@
+[run]
+branch = True
+omit =
+    */__init__.py
+    */admin.py
+    *test*.py
+    */migrations/*
+    */app/*
+    manage.py
+
+source = .
+
+[report]
+ignore_errors = True
+omit =
+    */__init__.py
+    */admin.py
+    *test*.py
+    */migrations/*
+    */app/*
+    manage.py
+
+[html]
+directory = htmlcov
